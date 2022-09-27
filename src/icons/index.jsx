@@ -1,4 +1,4 @@
-export const Icon = ({ children, height, width, viewBox, size }) => {
+export const Icon = ({ children, height, width, viewBox, color }) => {
   return (
     <>
       {/* <svg
@@ -6,7 +6,7 @@ export const Icon = ({ children, height, width, viewBox, size }) => {
         width={`${size}px`}
         viewBox={`0 0 ${size} ${size}`}
       > */}
-      <svg height={height} width={width} viewBox={viewBox}>
+      <svg height={height} width={width} viewBox={viewBox} color={color}>
         {children}
       </svg>
     </>
