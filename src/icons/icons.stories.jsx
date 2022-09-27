@@ -24,5 +24,5 @@ export const Primary = Template.bind({});
 Primary.args = {
   height: "50px",
   width: "50px",
-  color: "red",
+  color: "#000",
 };
