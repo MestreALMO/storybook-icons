@@ -5,6 +5,14 @@ import { CancelOrders } from "./partials/cancelOrders";
 import { DirectionSign } from "./partials/directionSign";
 import { IconsStoryBookContainer } from "./storybookContainer";
 
+export default {
+  title: "Icon",
+  component: Icon,
+  argTypes: {
+    color: { control: "color" },
+  },
+};
+
 const Template = (args) => (
   <div style={{ display: "grid", gridTemplateColumns: "repeat(5, 5fr)" }}>
     <IconsStoryBookContainer iconName="Cancel Order">
