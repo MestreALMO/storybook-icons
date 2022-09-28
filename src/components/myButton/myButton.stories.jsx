@@ -21,5 +21,6 @@ const Template = (args) => {
 export const Primary = Template.bind({});
 Primary.args = {
   color: "#000",
-  backgroundColor: "#999",
+  backgroundColor: "#add8e6",
+  text: "button storybook",
 };

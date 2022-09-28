@@ -8,7 +8,7 @@ function App() {
     <>
       <h1>DevALMO, YouTube Channel</h1>
 
-      <MyButton color="#000" backgroundColor="#999" />
+      <MyButton color="#000" backgroundColor="#add8e6" text="button app" />
       <br />
       <br />
       <Icon height={"50px"} width={"50px"} viewBox={"0 0 50 50"}>
