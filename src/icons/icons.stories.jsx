@@ -1,7 +1,8 @@
 import React from "react";
 
 import { Icon } from "./";
-import { CancelOrders } from "./partials/cancelOrders";
+import { Bird } from "./partials/bird";
+import { Cancel } from "./partials/cancel";
 import { DirectionSign } from "./partials/directionSign";
 import { IconsStoryBookContainer } from "./storybookContainer";
 
@@ -22,9 +23,14 @@ const Template = (args) => (
       borderLeft: "1px solid black",
     }}
   >
+    <IconsStoryBookContainer iconName="Bird">
+      <Icon viewBox="0 0 550 550" {...args}>
+        <Bird />
+      </Icon>
+    </IconsStoryBookContainer>
     <IconsStoryBookContainer iconName="Cancel Order">
-      <Icon viewBox="0 0 45 45" {...args}>
-        <CancelOrders />
+      <Icon viewBox="-4 -4 55 55" {...args}>
+        <Cancel />
       </Icon>
     </IconsStoryBookContainer>
     <IconsStoryBookContainer iconName="Direction Sign">

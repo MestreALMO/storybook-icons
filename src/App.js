@@ -1,5 +1,5 @@
 import { Icon } from "./icons";
-import { CancelOrders } from "./icons/partials/cancelOrders";
+import { Cancel } from "./icons/partials/cancel";
 import { DirectionSign } from "./icons/partials/directionSign";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
 
       {/* <Icon size={100}> */}
       <Icon height={"50px"} width={"50px"} viewBox={"0 0 50 50"}>
-        <CancelOrders />
+        <Cancel />
       </Icon>
       <Icon height={"50px"} width={"50px"} viewBox={"0 0 80 80"}>
         <DirectionSign />
