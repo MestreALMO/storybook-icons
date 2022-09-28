@@ -1,3 +1,4 @@
+import { MyButton } from "./components/myButton";
 import { Icon } from "./icons";
 import { Cancel } from "./icons/partials/cancel";
 import { DirectionSign } from "./icons/partials/directionSign";
@@ -7,7 +8,9 @@ function App() {
     <>
       <h1>DevALMO, YouTube Channel</h1>
 
-      {/* <Icon size={100}> */}
+      <MyButton color="#000" backgroundColor="#999" />
+      <br />
+      <br />
       <Icon height={"50px"} width={"50px"} viewBox={"0 0 50 50"}>
         <Cancel />
       </Icon>
