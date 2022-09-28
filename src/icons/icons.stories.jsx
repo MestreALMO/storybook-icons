@@ -14,10 +14,57 @@ export default {
 };
 
 const Template = (args) => (
-  <div style={{ display: "grid", gridTemplateColumns: "repeat(5, 5fr)" }}>
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(5, 5fr)",
+      borderTop: "1px solid black",
+      borderLeft: "1px solid black",
+    }}
+  >
     <IconsStoryBookContainer iconName="Cancel Order">
       <Icon viewBox="0 0 45 45" {...args}>
         <CancelOrders />
+      </Icon>
+    </IconsStoryBookContainer>
+    <IconsStoryBookContainer iconName="Direction Sign">
+      <Icon viewBox="0 0 70 70" {...args}>
+        <DirectionSign />
+      </Icon>
+    </IconsStoryBookContainer>
+    <IconsStoryBookContainer iconName="Direction Sign">
+      <Icon viewBox="0 0 70 70" {...args}>
+        <DirectionSign />
+      </Icon>
+    </IconsStoryBookContainer>
+    <IconsStoryBookContainer iconName="Direction Sign">
+      <Icon viewBox="0 0 70 70" {...args}>
+        <DirectionSign />
+      </Icon>
+    </IconsStoryBookContainer>
+    <IconsStoryBookContainer iconName="Direction Sign">
+      <Icon viewBox="0 0 70 70" {...args}>
+        <DirectionSign />
+      </Icon>
+    </IconsStoryBookContainer>
+    <IconsStoryBookContainer iconName="Direction Sign">
+      <Icon viewBox="0 0 70 70" {...args}>
+        <DirectionSign />
+      </Icon>
+    </IconsStoryBookContainer>
+    <IconsStoryBookContainer iconName="Direction Sign">
+      <Icon viewBox="0 0 70 70" {...args}>
+        <DirectionSign />
+      </Icon>
+    </IconsStoryBookContainer>
+    <IconsStoryBookContainer iconName="Direction Sign">
+      <Icon viewBox="0 0 70 70" {...args}>
+        <DirectionSign />
+      </Icon>
+    </IconsStoryBookContainer>
+    <IconsStoryBookContainer iconName="Direction Sign">
+      <Icon viewBox="0 0 70 70" {...args}>
+        <DirectionSign />
       </Icon>
     </IconsStoryBookContainer>
     <IconsStoryBookContainer iconName="Direction Sign">
