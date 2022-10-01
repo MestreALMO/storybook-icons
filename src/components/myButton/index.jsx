@@ -1,7 +1,12 @@
-export const MyButton = ({ color, backgroundColor, text }) => {
+export const MyButton = ({ color, text }) => {
   return (
     <>
-      <button style={{ color, backgroundColor, fontWeight: 800 }}>
+      <button
+        style={{
+          color,
+          fontWeight: 800,
+        }}
+      >
         {text}
       </button>
     </>
